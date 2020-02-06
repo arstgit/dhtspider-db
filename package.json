@@ -1,0 +1,25 @@
+{
+  "name": "dhtspider-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prettier": "prettier --write --no-semi --single-quote **/*.js",
+    "up": "docker-compose up --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekchuank/dhtspider-db.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekchuank/dhtspider-db/issues"
+  },
+  "homepage": "https://github.com/derekchuank/dhtspider-db#readme",
+  "dependencies": {
+    "mongodb": "^3.5.2"
+  }
+}
