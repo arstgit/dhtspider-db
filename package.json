@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/derekchuank/dhtspider-db#readme",
   "dependencies": {
-    "mongodb": "^3.5.2"
+    "mongodb": "^3.7.4"
   }
 }
